@@ -1,0 +1,47 @@
+html {
+    text-align: center;
+    background-color: gray;
+}
+
+#screenWrapper video {
+    border: 1px solid black;
+    margin: 1px;
+    max-width: 33%;
+    height: auto;
+}
+
+#screenWrapper video#pipOverlayStream {
+    max-width: 100% !important;
+}
+
+#startScreenShare {
+    background-color: #0d47a1;
+    border: 1px solid #0d47a1;
+}
+
+#stopScreenShare {
+    background-color: #b71c1c;
+    border: 1px solid #b71c1c;
+}
+
+#startPIP {
+    background-color: #4a148c;
+    border: 1px solid #4a148c;
+}
+
+button {
+    border-radius: 0.25rem;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.6;
+    padding: 0.4rem 0.8rem;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    margin: 5px;
+    cursor: pointer;
+}
